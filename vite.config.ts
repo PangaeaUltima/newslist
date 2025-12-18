@@ -1,3 +1,4 @@
+import tailwindcss from '@tailwindcss/vite';
 import vue from '@vitejs/plugin-vue';
 import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vite';
@@ -21,6 +22,7 @@ const plugins = [
     include: 'src/**/*.{vue,css,scss}',
     lintInWorker: true,
   }),
+  tailwindcss(),
 ];
 
 // https://vite.dev/config/
