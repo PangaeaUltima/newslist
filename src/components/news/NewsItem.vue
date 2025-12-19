@@ -18,7 +18,7 @@ const openNewsPage = (id: number) => {
 <template>
   <div class="flex flex-col gap-4">
     <div
-      class="aspect-[1.54/1] rounded-lg overflow-hidden"
+      class="aspect-[1.54/1] rounded-lg overflow-hidden cursor-pointer"
       @click="openNewsPage(news.id)"
     >
       <img
@@ -30,7 +30,7 @@ const openNewsPage = (id: number) => {
 
     <div class="flex flex-col gap-2">
       <h2
-        class="text-h2 text-purple line-clamp-2"
+        class="text-h2 text-purple line-clamp-2 cursor-pointer"
         @click="openNewsPage(news.id)"
       >
         {{ news.title }}

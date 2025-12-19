@@ -1,5 +1,6 @@
 import type { NewsDetail } from '@/api/news';
 
+// Можна переробити структуру на HTML та впровадити за допомогою дірективи v-html.
 const content: { type: 'p' | 'b', text: string }[] = [
   { type: 'p', text: 'Consumers are delaying electric vehicle purchases as charging availability and rising costs continue to raise concerns, despite strong long-term market forecasts.' },
   { type: 'p', text: 'Electric vehicle (EV) sales have shown signs of slowing in several key markets, highlighting growing consumer hesitation around charging infrastructure and overall ownership costs. While demand for electric cars remains significantly higher than just a few years ago, recent data suggests that adoption is no longer accelerating at the pace many manufacturers had anticipated.' },
